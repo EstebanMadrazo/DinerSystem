@@ -1,0 +1,45 @@
+DinerSystem
+Mapeo de requerimientos
+Descripción
+DinerSystem es un sistema para la automatización de la cafetería de la facultad de matemáticas.
+Requerimientos funcionales
+RF000.- El usuario tendrá acceso a la fecha y hora del sistema.
+RF001.-DinerSystem tendrá un menú con 4 opciones donde se manejan 3 tipos de usuario y la opción de salir del programa:
+Encargado.
+Cliente.
+Técnico.
+salir
+RF002.- Al iniciar el programa, este iniciara con la opción de encargado ya que no habrán platillos disponibles.
+RF003.- El usuario 1 (Encargado) será el administrador del programa y podrá: 
+Acceder al programa
+Administrar los platillos.
+Acceder a los pedidos.
+RF004.- El usuario 1 (Encargado) en la la opción 1 del RF002 podrá acceder al programa mediante una contraseña que se le proporcionará con anterioridad.
+RF005.- Al escoger la opción 2 del RF002, el encargado podrá agregar (mediante un nombre) o eliminar platillos del menú, les podrá asignar un precio de venta (el cual será obligatorio) y se le permitirá alternar entre si el platillo está disponible o no (estará como no disponible por defecto).
+RF006.- Al escoger la opción 3 del  RF002, el usuario 1 (Encargado) podrá acceder (visualizar) a los pedidos del usuario 2 (Cliente). en esta opción se visualizará los datos de los pedidos: 
+El número de la orden.
+El platillo.
+Las raciones.
+El precio.
+Para llevar (si/no).
+RF007.- En el menú, el usuario 2 (cliente) podrá visualizar:
+Los platillos disponibles en la cafetería.
+Los precios de los platillos.
+La disponibilidad de los platillos (disponible/no disponible).
+RF008.-  En cada pedido el cliente tendrá que especificar lo siguiente:
+El platillo .
+raciones.
+Para llevar (si/no).
+RF009.- Una vez hecho el pedido, el programa le preguntará al usuario 2 (cliente) si está seguro de su pedido ya que podría equivocarse al ordenar. 
+RF010.- Al finalizar cada pedido del cliente, el programa le arrojará el número del pedido con el que se le identificara y la fecha y hora del mismo. Dicho número será el número del pedido con el cual se le llamará al usuario para pagar y recibir su comida.
+RF011.- El usuario 3 del RF001 (Técnico) podrá visualizar el código del programa.
+RF012.- El técnico podrá visualizar el código del programa mediante una contraseña que se le proporcionará con anterioridad. 
+RF013.- Al seleccionar la opción 4 (salir) del RF001,se le pedirá al usuario ingresar alguna de las dos contraseñas y así  se cerrará el programa, reiniciando así el número del pedido.
+
+Requerimientos no funcionales
+RNF000.- DinerSystem tendrá una interfaz intuitiva y fácil de usar.
+RNF001.-El programa no tomara en cuenta en el menú las bebidas y alimentos procesados y/o que no requieran ser cocinados.
+RNF002.- El usuario 2 (cliente) únicamente podrá tener acceso al menú de la cafetería donde podrá hacer sus pedidos.
+RNF003.- El cliente (RF001) no podrá hacer el pedido de algún platillo cuando este ya no esté disponible.
+RNF004.-Una vez confirmado el pedido, este no se podra cancelar.
+RNF005.-El sistema podrá recibir pedidos hasta que no hayan platillos disponibles.
